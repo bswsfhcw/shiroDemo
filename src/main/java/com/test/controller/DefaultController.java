@@ -9,6 +9,7 @@ public class DefaultController {
 	
 	@RequestMapping("/")
 	public ModelAndView index() {
+		//≤‚ ‘git
 		ModelAndView model = new ModelAndView("index");
 		String msg = "";
 		model.addObject("message", msg);
